@@ -20,7 +20,6 @@ public class SecondServlet extends GenericServlet {
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
         out.println("<h1>This is my second servlet using generic servlet</h1>");
-                
     }
     
 }

@@ -17,6 +17,11 @@
         <servlet-class>com.servlet.SecondServlet</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>third</servlet-name>
+        <servlet-class>com.servlet.Servlet_http</servlet-class>
+    </servlet>
+    
 <!--    mapping-->
     
     <servlet-mapping>
@@ -28,6 +33,13 @@
         <servlet-name>second</servlet-name>
         <url-pattern>/second</url-pattern>
     </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>third</servlet-name>
+        <url-pattern>/third</url-pattern>
+    </servlet-mapping>
+    
+    
     
     <session-config>
         <session-timeout>

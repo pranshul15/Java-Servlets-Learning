@@ -27,6 +27,11 @@
         <servlet-class>com.servlet.RegisterServlet</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>success</servlet-name>
+        <servlet-class>com.servlet.SuccessServlet</servlet-class>
+    </servlet>
+    
 <!--    mapping-->
     
     <servlet-mapping>
@@ -48,6 +53,15 @@
         <servlet-name>registerservlet</servlet-name>
         <url-pattern>/RegisterServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>success</servlet-name>
+        <url-pattern>/success</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
     
     <session-config>
         <session-timeout>

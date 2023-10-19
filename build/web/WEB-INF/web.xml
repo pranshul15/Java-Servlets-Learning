@@ -22,6 +22,11 @@
         <servlet-class>com.servlet.Servlet_http</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>registerservlet</servlet-name>
+        <servlet-class>com.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    
 <!--    mapping-->
     
     <servlet-mapping>
@@ -39,7 +44,10 @@
         <url-pattern>/third</url-pattern>
     </servlet-mapping>
     
-    
+    <servlet-mapping>
+        <servlet-name>registerservlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
     
     <session-config>
         <session-timeout>
